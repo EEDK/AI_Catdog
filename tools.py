@@ -1,5 +1,6 @@
 import os
 
+
 class tools:
     def changeFileName(path, targetName):
         fileNames = os.listdir(path)
@@ -11,8 +12,11 @@ class tools:
             os.rename(src, dst)
             i += 1
 
+
+
+
 # dataDir = './dataset/AI-DATASET/data'
 # train_dir = os.path.join(dataDir, 'trainData')
-# examDir = os.path.join(train_dir, 'beverage_can')
+# examDir = os.path.join(train_dir, 'noodle_cup')
 
-# tools.changeFileName(examDir, 'beverage_can')
+# tools.changeFileName(examDir, 'noodle_cup')
