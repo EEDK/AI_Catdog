@@ -2,5 +2,7 @@
 dataset/
 test/
 train/
-
 data/
+
+### tools.py 제외
+tools.py
