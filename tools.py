@@ -15,18 +15,14 @@ class tools:
             i += 1
 
     def PushDiscord(msg):
-        webhook_url = "https://discord.com/api/webhooks/1098274897865756703/TIi4WmcVharS3S74LpJFIHrmgJv2zRkIRc4XBanK0tou3X7BosP0XZYygZxBk7Q5eHhb"
+        webhook_url = "https://discord.com/api/webhooks"
         headers = {
             "Content-Type": "application/json"
         }
         payload = {
-            "content": msg 
+            "content": msg
         }
         req.post(webhook_url, data=json.dumps(payload), headers=headers)
-
-
-
-
 
 
 # dataDir = './dataset/AI-DATASET/data'
