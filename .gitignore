@@ -4,5 +4,7 @@ test/
 train/
 data/
 
-### tools.py 제외
+### tools.py, cnn.pth 제외
 tools.py
+
+cnn.pth
