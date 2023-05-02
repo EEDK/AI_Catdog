@@ -8,3 +8,4 @@ data/
 tools.py
 
 cnn.pth
+PyeonHaengModel.pth
