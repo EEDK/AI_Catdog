@@ -7,6 +7,4 @@ data/
 ### tools.py, cnn.pth 제외
 tools.py
 
-cnn.pth
-PyeonHaengModel.pth
-PyeonHaengModel_ver1.pth
+*.pth
